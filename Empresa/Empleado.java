@@ -2,13 +2,11 @@
 
 public class Empleado extends Persona{
 
-    private double Sueldo Bruto;
+    public class Empleado extends Empresa{
 
-    public interface Electrico {
+    private double Sueldo Bruto;   
 
     public void mostrar();
     public void CalcularSalarioNeto();
     }
-
-
 }
